@@ -1,4 +1,5 @@
 # API_FLASK
+This application is to add and save text proposed by the user
 to run the apllication:
 #bash
 home $ sqlite3 /tmp/my_data_base.db < schema.sql #this file is to define the table should be used 
