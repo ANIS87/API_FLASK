@@ -5,6 +5,7 @@ sqlite3 /tmp/my_data_base.db < schema.sql #this file is to define the table shou
 #python
 from contextlib import closing
 from my_api import init_db
+
 init_db()
 #bash
 python my_api.py
