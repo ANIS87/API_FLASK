@@ -83,6 +83,10 @@ def add_entry():
   flash('New entry was successfully posted')
   return redirect(url_for('show_entries'))
 
+@app.route('/index', methods=['GET', 'POST'])
+def lionel(): 
+    return render_template('index.html')
+
 
 if __name__ == '__main__':
    app.run()
