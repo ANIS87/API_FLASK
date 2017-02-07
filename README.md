@@ -5,6 +5,7 @@ home $ sqlite3 /tmp/my_data_base.db < schema.sql #this file is to define the tab
 #python
 home $pyhton 
 '>>>from contextlib import closing
+
 '>>>from my_api import init_db
 
 '>>>init_db()
