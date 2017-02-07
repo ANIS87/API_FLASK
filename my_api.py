@@ -6,8 +6,8 @@ from contextlib import closing
 DATABASE = '/tmp/my_data_base.db'
 DEBUG = True
 SECRET_KEY = 'development key'
-USERNAME = 'krayni'
-PASSWORD = 'tunisie'
+USERNAME = 'my_name'
+PASSWORD = 'my_passowrd'
 
 # create our little application :)
 app = Flask(__name__)
